@@ -12,6 +12,7 @@ void setup() {
   main_signal.toMaxPos();
 }
 
+
 void loop() {
   uint64_t now=millis();
   main_signal.update(now);
